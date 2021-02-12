@@ -5,7 +5,7 @@ object Dependencies {
   // Versions
 
   // Libraries
-  val scalaTest = "org.scalatest" %% "scalatest" % "3.2.2"
+  val scalaTest = "org.scalatest" %% "scalatest" % "3.2.3"
 
   // Projects
   val skeleDependencies: Seq[ModuleID] = Seq(scalaTest % Test)
