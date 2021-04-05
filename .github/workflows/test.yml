@@ -12,6 +12,8 @@ jobs:
             java: 11
           - os: ubuntu-latest
             java: 15
+          - os: ubuntu-latest
+            java: 16
     runs-on: ${{ matrix.os }}
     steps:
     - name: Checkout
